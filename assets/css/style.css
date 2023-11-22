@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inika&family=Roboto:wght@100&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inika&family=Roboto:wght@100&display=swap');
 *{
     font-family: 'Inika', serif;
     margin: 0;
@@ -188,7 +188,6 @@ header .navbar ul li a:hover::after{
     position: relative;
     color: #fff;
     margin-bottom: 10rem;
-    margin-top: 10rem;
 }
 .heading::after {
     content: "";

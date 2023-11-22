@@ -63,3 +63,44 @@ $('nav a').on('click', function(event) {
     $('nav a').removeClass('app-nav-btn-active');
     $(this).addClass('app-nav-btn-active');
 });
+
+    
+  $('#menu').click(function(){
+      $(this).toggleClass('fa-times');
+      $('header').toggleClass('toggle');
+  });
+
+  $(window).on('scroll load',function(){
+
+      $('#menu').removeClass('fa-times');
+      $('header').removeClass('toggle');
+
+      if($(window).scrollTop() > 0){
+          $('.top').show();
+      }else{
+          $('.top').hide();
+      }
+
+  });
+
+  $('a[href*="#"]').on('click',function(e){
+
+      e.preventDefault();
+
+      $('html, body').animate({
+
+      },
+      500,
+      'linear'
+      );
+
+  });
+
+
+var typed = new Typed(".post", {
+  strings: ["Front End Developer","Web Designer","Programer","Web Developer"],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true
+}); 
