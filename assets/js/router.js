@@ -2,7 +2,7 @@ $(document).ready(function() {
     const contentDiv = $('#content');
     
     // Initial content to display when the SPA loads
-    contentDiv.load('views/Home.html');
+    contentDiv.load('views/home.html');
     
     // Handle navigation links
     $('nav a').on('click', function(event) {
