@@ -3,10 +3,6 @@ $(document).ready(function() {
     
     // Initial content to display when the SPA loads
     contentDiv.load('views/Home.html');
-    contentDiv.load('views/About.html');
-    contentDiv.load('views/Contact.html');
-    contentDiv.load('views/Education.html');
-    contentDiv.load('views/Portfolio.html');
     
     // Handle navigation links
     $('nav a').on('click', function(event) {
