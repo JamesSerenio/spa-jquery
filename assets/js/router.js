@@ -15,11 +15,12 @@ $(document).ready(function() {
     // Function to load content into the main container
     function loadContent(viewName) {
         contentDiv.fadeOut(200, function() {
-            contentDiv.load(`views/${viewName}.html`, function() {
+            contentDiv.load(`views/${viewName.toLowerCase()}.html`, function() {
                 contentDiv.fadeIn(200);
             });
         });
     }
+    
 });
 
 
