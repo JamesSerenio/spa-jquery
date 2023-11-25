@@ -97,9 +97,9 @@ $('nav a').on('click', function(event) {
   });
 
   var typed = new Typed(".post", {
-    strings: ["Front End Developer","Web Designer","Programer","Web Developer"],
+    strings: ["Front End Developer", "Web Designer", "Programmer", "Web Developer"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
-}); 
+});
